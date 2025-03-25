@@ -119,12 +119,6 @@ async function initMap() {
     mapId: "DEMO_MAP_ID",
   });
 
-  // The marker, positioned at Uluru
-  const marker = new AdvancedMarkerElement({
-    map: map,
-    position: position,
-    title: "location",
-  });
 }
 
 function updateMap(lat, lon) {
