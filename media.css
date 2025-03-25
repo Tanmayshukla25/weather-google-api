@@ -1,0 +1,28 @@
+@media screen and (min-width:320px) and (max-width:570px){
+    #results{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 17px;
+    }
+    input{
+        padding: 5px;
+        border-radius: 10px;
+    }
+    button{
+        padding: 5px 10px ;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        font-size: 10px;
+    }
+    #map {
+        height: 200px ;
+        width: 200px;
+        position: absolute;
+      left: 20px;
+        top: 350px;
+        
+      }
+}
